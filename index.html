@@ -1,0 +1,421 @@
+<html lang="Fr">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Serif:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!--Création du header-->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          SMS
+        </div>
+        <nav class="navbar">
+          <ul class="unstyled">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#about">A Propos</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#experiences">Expériences</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="right">
+          <ul class="unstyled">
+            <li>
+              <a href="https://www.linkedin.com/in/serigne-mback%C3%A9-sylla-4456aa1b4/" target="_blank">
+                <svg width="18" class ="icon linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/SMS_221_99" target="_blank">
+                <svg width="18" class="icon twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <button class="burger"><span class="bar"></span></button>
+        </div>
+      </div>
+    </header>
+    <!--Création de la section accueil-->
+    <section id="accueil" class="accueil">
+      <div class="accueil_container">
+        <div class="accueil__left">
+          <h1 class="ml10">
+            <span class="text-wrapper">
+              <span class="letters">Bienvenue sur mon portfolio</span>
+            </span>
+          </h1>          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+          <p>Je suis Serigne Mbacké Sylla, géomaticien et ingénieur en Génie rural</p>
+        </div>
+        <div class="accueil__right">
+          <img src="avatar.png" alt="Serigne">
+        </div>
+      </div>
+    </section>
+    <!--Création de la section about-->
+    <section id="about" class="about">
+      <div class="about_title">
+        <h2>A propos</h2>
+        <h3>Qui suis-je?</h3>
+      </div>
+      <div class="about_container">
+        <div class="about__left">
+          <img src="profil.JPG.jpeg" alt="Serigne">
+        </div>
+        <div class="about__right">       
+          <p >Je suis passionné par l'analyse des données, en particulier, géospatiales pour en dégager des observations
+            utiles à la prise de décision. j'interviens sur toutes les étapes de la gestion des données: la collecte,
+            le catalogage (métadonnées), la structuration en bases de données, l'analyse et le traitement des donnés
+            ainsi que leur valorisation par des représentations cartographique et graphique de manière statique ou interactive (Dashboard et webmapping).
+            Je suis également ingénieur en Génie rural (Eau, Environnement, Agronomie), par conséquent j'ai un intérêt
+            particulier pour les questions liées à la gestion de l'environnement, des ressources et risques naturels
+            et à l'aménagement des espaces.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Création de la section portfolio-->
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio_container">
+        <div class="section-header">
+          <h2 class="section-title">Porfolio</h2>
+        </div>
+        <div class="grid">
+          <div class="grid__item">
+            <div class="card" >
+              <img src="pfe.PNG" loading="lazy" 
+                alt="projet de fin d'études" class="card__image">
+              <div class="card__inner">
+                <h3 class="card__title">Projet de fin d'études d'ingénieur</h3>
+                <p class="category">Télédétection et gestion de l'irrigation</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-1">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-1">
+              <button class="modal__close">&times;</button>
+              <div class="modal__content">
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">Gestion de l'irrigation et imagerie satellitaire</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Année : 2022</i>
+                      </p> 
+                    </div>
+                    <div class="grid__item">
+                      <img src="pfe.PNG" loading="lazy" 
+                        class="card__image" alt="Projet de fin d'études" />
+                      <h5 class="h3">Informations:</h5>
+                      <p>
+                        Etude de la possibilté d'utiliser les images satellites Sentinel 2
+                        pour la gestion de l'irrigation des agrumes à la parcelle.
+                      </p>
+                      <h5 class="h3">Technologies:</h5>
+                      <ul>
+                        <li>Google Earth Engine</li>
+                        <li>API Javascript</li>
+                        <li>QGIS</li>     
+                      </ul>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="card" >
+              <img src="ocsol.jpg" loading="lazy" 
+                alt="projet de Géomatique" class="card__image">
+              <div class="card__inner">
+                <h3 class="card__title">Projet Géomatique de M1 SIGMA</h3>
+                <p class="category">Changements d'occupation du sol dans l'UE</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-2">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-2">
+              <button class="modal__close">&times;</button>
+              <div class="modal__content">
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">Changements d'occupation du sol dans l'UE</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Année : 2022</i>
+                      </p>  
+                    </div>
+                    <div class="grid__item">
+                      <img src="ocsol.jpg" loading="lazy"  
+                        class="card__image" alt="Projet de Géomatique" />
+                      <h5 class="h3">Informations:</h5>
+                      <p>
+                        Changements d’occupation du sol dans
+                        l’Union Européenne à travers les bases de données CLC et MODIS
+                        MCD12Q1 : analyse statistique, conception cartographiques et
+                        réalisation d’un atlas.
+                      </p>  
+                      <h5 class="h3">Technologies:</h5>  
+                      <ul>
+                        <li>QGIS</li>
+                        <li>OTB</li> 
+                      </ul>  
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="card">
+              <img src="postgres.jpg" loading="lazy" 
+                alt="projet de base de données" class="card__image">
+              <div class="card__inner">
+                <h3 class="card__title">Projet de base de données</h3>
+                <p class="category">Création d'une base de données Postgresql/Postgis</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-3">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-3">
+              <button class="modal__close">&times;</button>
+              <div class="modal__content">
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">Base de données Postgresql/Postgis</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Année : 2022</i>
+                      </p>  
+                    </div>
+                    <div class="grid__item">
+                      <img src="postgres.jpg" loading="lazy" 
+                        class="card__image" alt="Projet de base de données" />
+                      <h5 class="h3">Informations:</h5>
+                      <p>
+                        Mise en place d'une base de données pour la gestion d'une exploitation agricole: système d'irrigation, parcelles, cultures et main d'oeuvre
+                      </p>  
+                      <h5 class="h3">Technologies:</h5>  
+                      <ul>
+                        <li>Postgresql et Postgis</li>
+                        <li>QGIS</li>                       
+                      </ul>
+                    </div>              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="card">
+              <img src="portfolio.webp" loading="lazy" 
+                alt="projet de porfolio web" class="card__image">
+              <div class="card__inner">
+                <h3 class="card__title">Projet de développement Web</h3>
+                <p class="category">Développement d'un portfolio web interactif</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-4">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-4">
+              <button class="modal__close">&times;</button>
+              <div class="modal__content">
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">Portfolio Web</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Année : 2023</i>
+                      </p>
+                    </div>
+                    <div class="grid__item">
+                      <img src="portfolio.webp" loading="lazy" 
+                        class="card__image" alt="Projet de Portfolio web" />
+                      <h5 class="h3">Informations:</h5>
+                      <p>
+                        Développement d'un potfolio Web interactif et responsive 
+                      </p> 
+                      <h5 class="h3">Technologies:</h5> 
+                      <ul>
+                        <li>HTML, CSS</li>
+                        <li>Javascript</li>                       
+                      </ul>
+                    </div>                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!--Création de la section compétences-->
+    <section id="skills" class="skills">
+      <div class="skills__header">
+        <h2>Mes compétences</h2>
+      </div>
+      <div class="skills_container">
+        <div class="skills__left">
+          <h4>Domaines de compétence</h4>
+          <ul class="unstyled">
+            <li>SIG et Analyse spatiale</li>
+            <li>Cartographie et Infographie</li>
+            <li>Télédétection</li>
+            <li>Bases de données</li>
+            <li>Traitement de données avec Python et R</li>
+            <li>Thématiques: Eau, Environnement et Agronomie</li>
+          </ul>
+        </div>
+        <div class="skills__right">
+          <h4>Outils informatiques</h4>
+          <div class="progres__bar">
+            <div class="bar" data-width="80">QGIS</div>
+          </div>
+          <div class="progres__bar">
+            <div class="bar" data-width="65">ArcGis Pro & ArcGis Online</div>
+          </div>
+          <div class="progres__bar">
+            <div class="bar" data-width="70">Postgresql/Postgis</div>
+          </div>
+          <div class="progres__bar">
+            <div class="bar" data-width="60">Python</div>
+          </div>
+          <div class="progres__bar">
+            <div class="bar" data-width="60">R</div>
+          </div>
+          <div class="progres__bar">
+            <div class="bar" data-width="50">HTML-CSS-JAVASCRIPT</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Création de la section mes expériences-->
+    <section id="experiences" class="experiences">
+      <h2 class="exp-header">Expériences</h2>
+      <div class="exp">
+        <div class="bloc_exp">
+          <h4 class="titre_exp">Stage d’application en exploitation agricole [Décembre 2020] => ORMVA/Maroc</h4>
+          <p class="desc-exp">Diagnostic d’une exploitation agricole, en particulier, le
+            système d’irrigation</p>
+        </div>
+        <div class="bloc_exp">
+          <h4 class="titre_exp">Stage - Ingénieur d'études en eau potable [Août 2021-Septembre 2021] => NOVEC/Maroc</h4>
+          <p class="desc-exp">Etude du schéma directeur d’approvisionnement en eau
+            potable de la ville de Diffa au Niger</p>
+        </div>
+        <div class="bloc_exp">
+          <h4 class="titre_exp">Stage - Géomaticien [Mars 2023 - Septembre 2023] => FRAMESPA-CNRS/Toulouse</h4>
+          <p class="desc-exp">Recueillir des données relatives à l'utilisation de l'hydrogène vert dans le secteur de l'aéronautique,
+              les structurer en bases de données pour les analyser et les visualiser par des cartes et graphiques. 
+          </p>
+        </div>
+      </div>   
+    </section>
+    <!--Création de la section contact-->
+    <section id="contact">
+      <div class="Contact__header">
+        <h2>Contact</h2>
+      </div>
+      <div class="form__contact">
+        <form action="">
+          <div class="prénom">
+            <input type="text" placeholder="Prénom">
+          </div>
+          <div class="nom">
+            <input type="text" placeholder="Nom">
+          </div>
+          <div class="message">
+            <textarea id = "message" placeholder="Votre message">
+            </textarea>
+          </div>
+          <div class="bout_envoyer">
+            <input Class= "bout_envoi" type="submit" value="Envoyer">
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--Création du footer-->
+    <footer>
+      <div>
+        <p class="logo-footer">
+          SMS
+        </p>
+      </div>
+      <div>
+        <p class="copyrights">
+          Copyright © 2023 Portfolio. All rights reserved.
+        </p>
+      </div>
+      <div class="resaux_footer">
+        <ul class="unstyled">
+          <li>
+            <a href="https://www.linkedin.com/in/serigne-mback%C3%A9-sylla-4456aa1b4/" target="_blank">
+              <svg width="14" class ="icon linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/SMS_221_99" target="_blank">
+              <svg width="14" class="icon twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>    
+    </footer>
+  </body>
+</html>
